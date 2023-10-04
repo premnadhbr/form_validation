@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_4/background_image.dart';
-import 'package:flutter_application_4/inherited.dart';
 import 'package:flutter_application_4/styles.dart';
 import 'package:flutter_application_4/widgets/textfield.dart';
 
