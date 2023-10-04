@@ -16,7 +16,6 @@ class _LoginpageState extends State<Loginpage> {
 
   @override
   Widget build(BuildContext context) {
-    inherited.of(context);
     return Stack(children: [
       const Backgroundimage(),
       Scaffold(
@@ -24,7 +23,6 @@ class _LoginpageState extends State<Loginpage> {
         body: ListView(children: [
           SafeArea(
             child: Column(children: [
-        
               divide,
               Login(),
               divide,
@@ -48,11 +46,9 @@ class _LoginpageState extends State<Loginpage> {
                       ),
                       divide,
                       textfield(
-                     
                         icon: Icons.numbers,
                         keyboardtype: TextInputType.number,
                         occurtext: false,
-                       
                         hint: 'Number',
                         isempty: 'Please enter Number',
                         error: 'Please enter a valid Number',
@@ -63,7 +59,6 @@ class _LoginpageState extends State<Loginpage> {
                       ),
                       divide,
                       textfield(
-
                         icon: Icons.email,
                         keyboardtype: TextInputType.emailAddress,
                         occurtext: false,

@@ -4,13 +4,10 @@ import 'package:flutter_application_4/loginpage.dart';
 
 void main() {
   runApp(
-    inherited(
-      count: 2,
-      child: const MaterialApp(
-        debugShowCheckedModeBanner: false,
-        home: Scaffold(
-          body: Loginpage(),
-        ),
+    const MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+        body: Loginpage(),
       ),
     ),
   );
